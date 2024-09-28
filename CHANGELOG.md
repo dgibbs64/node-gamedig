@@ -118,7 +118,8 @@ a vulnerability (#604)
 * Now documented: `address` (defaults to `undefined`) Override the IP address of the server skipping DNS resolution. When set, host will not be resolved, instead address will be connected to. However, some protocols still use host for other reasons e.g. as part of the query.
 
 #### Games
-* Removed the players::setNum method, the library will no longer add empty players as placeholders in the `players` fields.
+* Removed the players::setNum method, the library will no longer add empty players as
+placeholders in the `players` fields.
 * Valve: dont skip players with no name and keep state.raw.players.
 * Stabilized field `numplayers`.
 * Add note about EOS Protocol not providing players data.
